@@ -4,7 +4,8 @@ import Image from 'next/image';
 import classes from "./home.module.css";
 import HomepageHeader from '@/components/templates/homepage-header';
 
-// import ModuleComponent from '@/components/templates/module/ModuleComponent';
+
+
 import WelcomeSection from '@/components/templates/welcome/welcome';
 
 function SectionWrapper({
@@ -47,11 +48,10 @@ function SectionWrapper({
 export default function Home() {
   return (
     <main className={classNames(classes.main, "flex flex-col ")}>
-      {/* <ModuleComponent /> */}
       <HomepageHeader />
       <WelcomeSection />
       <SectionWrapper
-        imageUrl="/gif/cubes/commune-single-block_blue.gif"
+        imageUrl="/gif/cubes/commune-single-block_blue.webp"
         backgroundClassName="bg-white dark:bg-gray-900"
       >
         <div className='text-black'>
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </SectionWrapper>
       <SectionWrapper
-        imageUrl="/gif/cubes/commune-single-block_green.gif"
+        imageUrl="/gif/cubes/commune-single-block_green.webp"
         backgroundClassName="bg-white dark:bg-gray-800"
       >
         <div className='text-black'>
@@ -142,7 +142,7 @@ export default function Home() {
       </SectionWrapper>
       <SectionWrapper
 
-        imageUrl="/gif/cubes/commune-single-block_yellow.gif"
+        imageUrl="/gif/cubes/commune-single-block_yellow.webp"
 
         backgroundClassName="bg-white"
       >
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       </SectionWrapper>
       <SectionWrapper
-        imageUrl="/gif/cubes/commune-single-block_red.gif"
+        imageUrl="/gif/cubes/commune-single-block_red.webp"
         backgroundClassName="bg-white dark:bg-gray-800"
       >
         <div className='text-black '>
@@ -201,7 +201,7 @@ export default function Home() {
         </div>
       </SectionWrapper>
       <SectionWrapper
-        imageUrl="/gif/cubes/commune-single-block_purple.gif"
+        imageUrl="/gif/cubes/commune-single-block_purple.webp"
         backgroundClassName="bg-white"
       >
         <div className=' text-black'>
@@ -241,7 +241,7 @@ export default function Home() {
         </div>
       </SectionWrapper>
       <SectionWrapper
-        imageUrl="/gif/cubes/commune-single-block_gray.gif"
+        imageUrl="/gif/cubes/commune-single-block_gray.webp"
         backgroundClassName="bg-white dark:bg-gray-800"
       >
         <div className=' text-black dark:text-white'>
@@ -267,7 +267,7 @@ export default function Home() {
         </div>
       </SectionWrapper>
       <SectionWrapper
-        imageUrl="/gif/cubes/commune-single-block_white.gif"
+        imageUrl="/gif/cubes/commune-single-block_white.webp"
         backgroundClassName="bg-white"
       >
         <div className='text-black dark:text-white'>
